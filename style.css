@@ -72,7 +72,24 @@
     margin: 0px 6px;
     padding: 0px 6px;
 }
-
+#menubar{
+    display: none; 
+    position: absolute;
+    right: 24px;
+    height: 30px;
+    width: 32px;
+    /* margin: 2px 2px; */
+    /* padding: 2px 2px; */
+    border: 2px solid white;
+}
+#menubar>div{
+    width: 16px;
+    height: 0px;
+    margin: 4px auto;
+    padding: 2px 2px;
+    color: white;
+    background-color: dimgray;
+}
 #section-1 {
     display: flex;
     position: absolute;
@@ -159,8 +176,8 @@
     width: 300px;
     margin: 0px 4px;
     position: relative;
-    top: -12px;
-    left: -108px;
+    top: -10px;
+    left: -109px;
     z-index: 2;
 }
 

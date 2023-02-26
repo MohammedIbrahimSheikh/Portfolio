@@ -1,0 +1,80 @@
+@media only screen and (max-width:900px) {
+    #navbar #navigation,#right-item{
+        display: none;
+    }
+    #menubar{
+        display: inline-block;
+    }
+    #section-1{
+        height: 870px;
+    }
+    #section-1 > div.container{
+        height: 100%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        /* height: 500px; */
+    }
+    #section-1 #left{
+        top: 116px;
+        left: 10px;
+    }
+    #left >p{
+        width: 400px;
+    }
+    #section-1 #mid{
+        order: 1;
+        top: 160px;
+        left: 3px;
+        margin: 2px auto;
+    }
+    #section-1 #right{
+        top: 167px;
+        left: 6px;
+    }
+    #right > p{
+        width: 340px;
+    }
+    #social{
+        top: 813px;
+        width: 86%;
+        height: fit-content;
+    }
+    #social>ul{
+        flex-wrap: wrap;
+    }
+    #social .items{
+        width: 120px;
+    }
+    #section-2{
+        height: 682px;
+        top: 755px;
+    }
+    #section-2 div.parent{
+        height: 86%;
+        align-items: start;
+        position: relative;
+        top: 88px;
+    }
+    #section-2 div.item-1{
+        left: 10px;
+        width: 100%;
+    }
+    div.item-1 h2{
+        width: 323px;
+        margin: 13px 4px;
+    }
+    div.item-1 p{
+        width: 305px;
+        margin: 13px 4px;
+    }
+    div.item-1 table{
+        margin: 5px 4px
+    }
+    #section-2 div.item-2{
+        top: 281px;
+        left: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+}
