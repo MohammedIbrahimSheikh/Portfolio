@@ -5,6 +5,8 @@
     #menubar{
         display: inline-block;
     }
+}
+@media only screen and (min-width:444px) and (max-width:1180px) {
     #section-1{
         height: 870px;
     }
@@ -18,9 +20,6 @@
     #section-1 #left{
         top: 116px;
         left: 10px;
-    }
-    #left>h2{
-        font-size: 1.5rem;
     }
     #left >p{
         width: 400px;
