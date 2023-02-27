@@ -19,6 +19,9 @@
         top: 116px;
         left: 10px;
     }
+    #left>h2{
+        font-size: 1.5rem;
+    }
     #left >p{
         width: 400px;
     }
